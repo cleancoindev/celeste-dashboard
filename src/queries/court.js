@@ -42,6 +42,10 @@ export const CourtConfig = gql`
       minMaxPctTotalSupply
       maxMaxPctTotalSupply
       penaltyPct
+      brightIdRegister {
+        verifiers
+        registrationPeriod
+      }
       subscriptions {
         id
         currentPeriod
