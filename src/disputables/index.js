@@ -101,8 +101,8 @@ export async function describeDisputedAction(
  */
 async function describeActionScript(evmScript, organization) {
   // No EVM script, means it's not an executable action (e.g. signaling vote)
-  if (evmScript === '0x') {
-    return []
+  if (evmScript.script === '0x') {
+    return [evmScript.resolvedScript]
   }
 
   const org = await connect(

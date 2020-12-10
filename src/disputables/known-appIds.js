@@ -10,3 +10,6 @@ export const VOTING_APP_IDS = [
   '0x705b5084c67966bb8e4640b28bab7a1e51e03d209d84e3a04d2a4f7415f93b34', // disputable-voting.open.aragonpm.eth
   '0x39aa9e500efe56efda203714d12c78959ecbf71223162614ab5b56eaba014145', // disputable-voting.precedence-campaign.aragonpm.eth
 ]
+export const CONVICTION_VOTING_APP_IDS = [
+  '0xca60629a22f03bcad7738fee1a6f0c5863eb89463621b40566a6799b82cbe184', // disputable-conviction-voting.open.aragonpm.eth
+]
