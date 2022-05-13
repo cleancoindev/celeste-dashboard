@@ -11,7 +11,7 @@
     "@web3-react/core": "^6.0.2",
     "@web3-react/injected-connector": "^6.0.3",
     "clipboard-polyfill": "^2.8.6",
-    "dayjs": "^1.8.14",
+    "dayjs": "^1.11.1",
     "dotenv": "^8.2.0",
     "ethers": "^5.0.9",
     "file-saver": "^2.0.2",
